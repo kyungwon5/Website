@@ -1,0 +1,48 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.boxes {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+.indiv {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+
+.imagebox,
+.videobox,
+.newsbox {
+  height: 500px;
+  width: 200px;
+  font-size: 2em;
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  font-weight: bold;
+}
+
+.footer {
+  font-size: 1.5em;
+}
