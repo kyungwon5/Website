@@ -3,3 +3,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.swiper-wrapper {
+  align-items: center;
+  margin-top: 150px;
+  width: 10px;
+}
+
+.swiper-slide {
+  height: 600px;
+  background-color: beige;
+  align-items: center;
+}
